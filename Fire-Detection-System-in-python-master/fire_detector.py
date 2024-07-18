@@ -7,7 +7,7 @@ Alarm_Status = False
 Fire_Reported = 0
 def play_alarm_sound_function():
 	while True:
-		playsound.playsound('C:/Users/HAB TECH/Desktop/Fire-Detection-System-in-python-master/Alarm Sound.mp3',True)
+		playsound.playsound('C:/Users/Mofiyinfoluwa/Downloads/Alarm Sound.mp3',True)
 video = cv2.VideoCapture(0) # If you want to use webcam use Index like 0,1. 
 while True:
     (grabbed, frame) = video.read()
